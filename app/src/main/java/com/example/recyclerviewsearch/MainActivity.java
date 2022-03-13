@@ -64,6 +64,10 @@ public class MainActivity extends AppCompatActivity {
             public void afterTextChanged(Editable editable) {
                 List<OngoingOrderData> searchList = new ArrayList<>();
 
+
+
+
+
                 String searchValue = editable.toString();
 
                 if (searchValue!=null || searchValue.equals("")){
